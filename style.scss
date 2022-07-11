@@ -475,7 +475,7 @@ body {
                     }
 
                     &:nth-child(2) {
-                        left: 85.42%;
+                        left: 88.42%;
                         top: 78.07%;
                     }
                 }
@@ -558,5 +558,179 @@ body {
             }
         }
 
+        .information {
+            display: flex;
+            justify-content: center;
+            max-width: 1920px;
+            background-color: $colorWhite;
+            position: relative;
+
+            .background_images {
+                img {
+                    position: absolute;
+
+                    &:nth-child(1) {
+                        left: 7.94%;
+                        top: 30.37%;
+                    }
+
+                    &:nth-child(2) {
+                        left: 57.42%;
+                        top: 24.07%;
+                    }
+                }
+            }
+
+            .container {
+                width: 1170px;
+
+
+                .title {
+                    margin-top: 214px;
+                    margin-bottom: 53px;
+
+                    h3 {
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight800;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: $colorLightBlack;
+                    }
+                }
+
+                .description {
+                    margin-bottom: 45px;
+                    width: 669.65px;
+
+                    p {
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight400;
+                        font-size: 18px;
+                        line-height: 25.2px;
+                        color: $colorLightBlack;
+                    }
+                }
+
+                .button {
+                    margin-bottom: 180px;
+
+                    button {
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight700;
+                        font-size: 15px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                        color: $colorWhite;
+                        background-color: $colorGreen;
+                        padding: 22.5px 55.97px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .feedback {
+            display: flex;
+            justify-content: center;
+            max-width: 1920px;
+            background-color: $colorSkyBlue;
+            position: relative;
+
+            .background_images {
+                img {
+                    position: absolute;
+
+                    &:nth-child(1) {
+                        left: 7.94%;
+                        top: 31.37%;
+                    }
+
+                    &:nth-child(2) {
+                        left: 74.42%;
+                        top: 38.07%;
+                    }
+                }
+            }
+
+            .container {
+                text-align: center;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+
+                .title {
+                    margin-top: 180px;
+                    margin-bottom: 20px;
+
+                    h3 {
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight800;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: $colorLightBlack;
+                    }
+                }
+
+                .description {
+                    max-width: 479px;
+                    margin-bottom: 27px;
+
+                    p {
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight400;
+                        font-size: 18px;
+                        line-height: 31.5px;
+                        color: $colorLightBlack;
+                    }
+                }
+
+                .feedback_form {
+                    width: 470px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    margin-bottom: 128px;
+                    align-items: center;
+
+                    .input_field {
+                        width: 470px;
+                        height: 58px;
+                        background: $colorWhite;
+                        border: 1px solid $colorLightBlue;
+                        border-radius: 10px;
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #939393;
+                        padding: 14px 19px;
+                    }
+
+                    .input_name {}
+
+                    .input_messenger {}
+
+                    .input_email {}
+
+                    .submit {
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: center;
+                        width: 270px;
+                        height: 60px;
+                        background: #6BD75F;
+                        border-radius: 5px;
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight700;
+                        font-size: 15px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                        color: #F9F9F9;
+                    }
+                }
+            }
+        }
     }
 }

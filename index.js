@@ -31,6 +31,7 @@ stagesButtonRight.addEventListener('click', () => {
     }
     stagesMainSlider.style.left = -offset + "px";
 })
+
 stagesButtonLeft.addEventListener('click', () => {
     offset = offset - 550;
     if (offset < 0) {
@@ -38,7 +39,6 @@ stagesButtonLeft.addEventListener('click', () => {
     }
     stagesMainSlider.style.left = -offset + "px";
 })
-
 
 const showHideExamples = () => {
     for (let i = 0; i < examplesImageBlock.length; i++) {
