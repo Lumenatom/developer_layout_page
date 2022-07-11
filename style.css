@@ -472,3 +472,39 @@ body .wraper .examples .container .examples_item {
   gap: 20px;
   margin-bottom: 121px;
 }
+body .wraper .examples .container .examples_item .examples_image-block {
+  width: 570px;
+  height: 447px;
+}
+body .wraper .examples .container .examples_item .examples_image-block .examples_image {
+  position: absolute;
+}
+body .wraper .examples .container .examples_item .examples_image-block .examples_description {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  background: #67AEFC;
+  border-radius: 15px;
+  width: 570px;
+  height: 447px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body .wraper .examples .container .examples_item .examples_image-block .examples_description .title h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26.25px;
+  color: #FFFFFF;
+}
+body .wraper .examples .container .examples_item .examples_image-block .examples_description .desctiption p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31.5px;
+}
+body .wraper .examples .container .examples_item .examples_image-block .active {
+  display: flex;
+}

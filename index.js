@@ -3,8 +3,10 @@ const blockDescriptionOfServices = document.querySelectorAll('.services-show_des
 const stagesMainSlider = document.querySelector('.stages_main');
 const stagesButtonLeft = document.querySelector('.button_left');
 const stagesButtonRight = document.querySelector('.button_right');
+const examplesDescription = document.querySelectorAll('.examples_description');
+const examplesImageBlock = document.querySelectorAll('.examples_image-block');
 
-const showHide = () => {
+const showHideServices = () => {
     for (let i = 0; i < servicesButtons.length; i++) {
         servicesButtons[i].setAttribute('numBtn', i)
         servicesButtons[i].addEventListener('click', () => {
@@ -19,7 +21,7 @@ const showHide = () => {
     }
 
 }
-showHide();
+showHideServices();
 
 let offset = 0;
 stagesButtonRight.addEventListener('click', () => {
@@ -38,3 +40,28 @@ stagesButtonLeft.addEventListener('click', () => {
 })
 
 
+const showHideExamples = () => {
+    for (let i = 0; i < examplesImageBlock.length; i++) {
+        examplesImageBlock[i].setAttribute('numimg', i);
+        examplesImageBlock[i].addEventListener('mouseover', () => {
+
+            for (let i = 0; i < examplesDescription.length; i++) {
+                examplesDescription[i].setAttribute('numdescript', i);
+            }
+            if (examplesDescription[i].getAttribute('numdescript') == examplesImageBlock[i].getAttribute('numimg')) {
+                examplesDescription[i].classList.add("active")
+            }
+        });
+        examplesImageBlock[i].addEventListener('mouseout', () => {
+
+            for (let i = 0; i < examplesDescription.length; i++) {
+                examplesDescription[i].setAttribute('numdescript', i);
+            }
+            if (examplesDescription[i].getAttribute('numdescript') == examplesImageBlock[i].getAttribute('numimg')) {
+                examplesDescription[i].classList.remove("active")
+            }
+        });
+    }
+
+}
+showHideExamples();

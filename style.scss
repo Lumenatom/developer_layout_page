@@ -505,9 +505,55 @@ body {
                     margin-bottom: 121px;
 
                     .examples_image-block {
+                        width: 570px;
+                        height: 447px;
 
-                        img {}
+
+                        .examples_image {
+                            position: absolute;
+
+                        }
+
+                        .examples_description {
+                            display: none;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            color: rgb(255, 255, 255);
+                            background: $colorBlue;
+                            border-radius: 15px;
+                            width: 570px;
+                            height: 447px;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+
+                            .title {
+                                h3 {
+                                    font-family: $fontFamilyMontserrat;
+                                    font-weight: $fontWeight700;
+                                    font-size: 21px;
+                                    line-height: 26.25px;
+                                    color: $colorWhite;
+                                }
+                            }
+
+                            .desctiption {
+                                p {
+                                    font-family: $fontFamilyMontserrat;
+                                    font-weight: $fontWeight400;
+                                    font-size: 18px;
+                                    line-height: 31.5px;
+                                }
+                            }
+                        }
+
+                        .active {
+                            display: flex;
+                        }
+
                     }
+
+
                 }
             }
         }
