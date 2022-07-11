@@ -87,6 +87,14 @@ h6 {
   font-weight: 400;
 }
 
+body .wraper .footer .container .contacts .phones .phone_item .name h3, body .wraper .footer .container .contacts .phones .phone_item .phone_number h3, body .wraper .footer .container .contacts .email h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
 body {
   background-color: #484848;
 }
@@ -648,4 +656,59 @@ body .wraper .feedback .container .feedback_form .submit {
   line-height: 15px;
   text-transform: uppercase;
   color: #F9F9F9;
+}
+body .wraper .footer {
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  background-color: #64ABF9;
+}
+body .wraper .footer .container {
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+}
+body .wraper .footer .container .contacts {
+  margin-top: 101px;
+  margin-bottom: 120px;
+  display: flex;
+  gap: 120px;
+}
+body .wraper .footer .container .contacts .social_network .links {
+  margin-top: 45px;
+  display: flex;
+  gap: 39px;
+}
+body .wraper .footer .container .contacts .phones {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 20px;
+}
+body .wraper .footer .container .contacts .phones .phone_item {
+  display: flex;
+  gap: 10px;
+}
+body .wraper .footer .container .contacts .phones .phone_item .name h3 {
+  text-transform: uppercase;
+}
+body .wraper .footer .container .contacts .phones .phone_item .phone_number h3 {
+  text-transform: uppercase;
+}
+body .wraper .footer .container .contacts .email {
+  margin-top: 10px;
+}
+body .wraper .footer .container .contacts .email h3 {
+  text-transform: lowercase;
+}
+body .wraper .footer .container .information {
+  background-color: #64ABF9;
+  margin-bottom: 79px;
+}
+body .wraper .footer .container .information h3 {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31.5px;
 }

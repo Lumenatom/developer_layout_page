@@ -18,6 +18,14 @@ $fontWeight700: 700;
 $fontWeight800: 800;
 $fontWeight900: 900;
 
+%footerContacts {
+    font-family: $fontFamilyMontserrat;
+    font-weight: $fontWeight400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $colorWhite;
+}
+
 
 
 body {
@@ -728,6 +736,97 @@ body {
                         line-height: 15px;
                         text-transform: uppercase;
                         color: #F9F9F9;
+                    }
+                }
+            }
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            max-width: 1920px;
+            background-color: $colorFooterBlue;
+
+            .container {
+                width: 1170px;
+                display: flex;
+                flex-direction: column;
+
+                .contacts {
+                    margin-top: 101px;
+                    margin-bottom: 120px;
+                    display: flex;
+                    gap: 120px;
+
+                    .social_network {
+                        logo {
+
+                            img {}
+                        }
+
+                        .links {
+                            margin-top: 45px;
+                            display: flex;
+                            gap: 39px;
+
+                            a {
+                                img {}
+                            }
+                        }
+                    }
+
+                    .phones {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 13px;
+                        margin-top: 20px;
+
+
+                        .phone_item {
+                            display: flex;
+                            gap: 10px;
+
+                            .icon {
+                                img {}
+                            }
+
+                            .name {
+                                h3 {
+                                    @extend %footerContacts;
+                                    text-transform: uppercase;
+
+                                }
+                            }
+
+                            .phone_number {
+                                h3 {
+                                    @extend %footerContacts;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+                    }
+
+                    .email {
+                        margin-top: 10px;
+
+                        h3 {
+                            @extend %footerContacts;
+                            text-transform: lowercase;
+                        }
+                    }
+                }
+
+                .information {
+                    background-color: $colorFooterBlue;
+                    margin-bottom: 79px;
+
+                    h3 {
+                        color: $colorWhite;
+                        font-family: $fontFamilyMontserrat;
+                        font-weight: $fontWeight400;
+                        font-size: 18px;
+                        line-height: 31.5px;
                     }
                 }
             }
