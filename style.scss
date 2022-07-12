@@ -585,6 +585,9 @@ body {
                     &:nth-child(2) {
                         left: 57.42%;
                         top: 24.07%;
+                        width:
+                            411.58px;
+                        height: 381.5px;
                     }
                 }
             }
@@ -828,6 +831,340 @@ body {
                         font-size: 18px;
                         line-height: 31.5px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    body {
+
+        .wraper {
+            max-width: 1560px;
+
+
+
+            .order_header {
+                max-width: 1560px;
+
+                .background_images {
+                    img {
+                        position: absolute;
+
+                        &:nth-child(2) {
+                            top: 78.46%;
+                        }
+
+                        &:nth-child(3) {
+                            top: 88.46%;
+                        }
+
+                        &:nth-child(5) {
+                            right: 0%;
+                            top: 20.46%;
+                        }
+
+                        &:nth-child(7) {
+                            left: 40.77%;
+                        }
+                    }
+                }
+
+                .container {
+                    width: 1024px;
+                }
+            }
+
+            .services {
+                max-width: 1560px;
+
+                .background_images {
+                    img {
+                        top: 85.4%;
+                    }
+                }
+
+                .container {
+                    width: 1024px;
+
+
+
+                    .services_description {
+                        .services_item {
+                            max-width: 1024px;
+                        }
+                    }
+                }
+
+                .stages {
+                    max-width: 1560px;
+
+                    .container {
+                        width: 1024px;
+                    }
+                }
+
+                .examples {
+                    max-width: 1560px;
+
+                    .container {
+                        width: 1024px;
+                    }
+                }
+
+                .information {
+                    max-width: 1560px;
+
+                    .container {
+                        width: 1024px;
+                    }
+                }
+
+                .feedback {
+                    max-width: 1560px;
+
+                    .container {
+                        width: 1024px;
+                    }
+                }
+
+                .footer {
+                    max-width: 1920px;
+
+                    .container {
+                        width: 1024px;
+                    }
+                }
+            }
+
+            .information {
+
+                .background_images {
+                    img {
+
+                        &:nth-child(1) {
+                            top: 15.37%;
+                        }
+
+
+                    }
+                }
+            }
+
+            .feedback {
+                .background_images {
+                    img {
+
+                        &:nth-child(1) {
+                            left: 3.94%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    body {
+
+        .wraper {
+            max-width: 1220px;
+
+            .nav {
+                .container {
+                    width: 960px;
+                }
+            }
+
+            .order_header {
+                max-width: 1220px;
+
+                .background_images {
+                    img {
+                        position: absolute;
+
+                        &:nth-child(2) {
+                            width: 80px;
+                            left: 0%;
+                            top: 78.46%;
+                        }
+
+                        &:nth-child(3) {
+                            width: 100px;
+                            top: 83%;
+                            left: 3.5%;
+                        }
+
+                        &:nth-child(5) {
+                            width: 400px;
+                            top: 15.46%;
+                        }
+
+                        &:nth-child(6) {
+                            width: 100px;
+                            top: 54.45%;
+                        }
+
+                        &:nth-child(7) {
+                            width: 400px;
+                            left: 54.77%;
+                            top: 18.46%;
+                        }
+
+                        &:nth-child(8) {
+                            width: 100px;
+                            left: 87.17%;
+                            top: 22.42%;
+                        }
+
+                        &:nth-child(9) {
+                            width: 40px;
+                            left: 88.17%;
+                            top: 39.42%;
+                        }
+
+                        &:nth-child(10) {
+                            width: 30px;
+                            left: 93.17%;
+                            top: 34.42%;
+                        }
+
+                        &:nth-child(11) {
+                            left: 81.4%;
+                            top: 60.86%;
+                        }
+                    }
+                }
+
+                .container {
+                    width: 960px;
+                }
+            }
+
+            .services {
+                max-width: 1220px;
+
+                .background_images {
+                    img {
+                        width: 80px;
+                        left: 89.52%;
+                        top: 4.4%;
+                    }
+                }
+
+                .container {
+                    max-width: 960px;
+
+                    .services_description {
+                        .services_item {
+                            max-width: 960px;
+                        }
+                    }
+                }
+            }
+
+            .stages {
+                max-width: 1220px;
+
+                .container {
+                    width: 960px;
+                }
+            }
+
+            .examples {
+                max-width: 1220px;
+
+                .background_images {
+                    img {
+                        position: absolute;
+
+                        &:nth-child(1) {
+                            display: none;
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+                }
+
+                .container {
+                    width: 960px;
+
+                    .examples_item {
+                        display: flex;
+                        justify-content: center;
+
+                        .examples_image-block {
+                            width: 960px;
+                            height: 587px;
+
+                            .examples_image {
+                                width: 960px;
+                                height: 587px;
+                            }
+
+                            .examples_description {
+                                width: 960px;
+                                height: 587px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .information {
+                max-width: 1220px;
+
+                .background_images {
+                    img {
+                        position: absolute;
+
+                        &:nth-child(1) {
+                            left: 4.94%;
+                            top: 10.37%;
+                        }
+
+                        &:nth-child(2) {
+                            left: 67.42%;
+                            top: 24.07%;
+                            width: 351.58px;
+                            height: 301.5px;
+                        }
+                    }
+                }
+
+                .container {
+                    width: 960px;
+                }
+            }
+
+            .feedback {
+                max-width: 1220px;
+            }
+
+            .footer {
+                max-width: 1220px;
+
+                .container {
+                    width: 960px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body {
+
+        .wraper {
+            max-width: 960px;
+
+            .nav {
+                .container {
+                    width: 640px;
                 }
             }
         }
