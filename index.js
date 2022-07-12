@@ -7,6 +7,7 @@ const examplesDescription = document.querySelectorAll('.examples_description');
 const examplesImageBlock = document.querySelectorAll('.examples_image-block');
 const burgerMenuButton = document.querySelector('.burger_menu');
 const navLinks = document.querySelector('.nav_links');
+const stagesBlock = document.querySelector('.stages_main');
 
 
 const showHideServices = () => {
@@ -28,17 +29,17 @@ showHideServices();
 
 let offset = 0;
 stagesButtonRight.addEventListener('click', () => {
-    offset = offset + 315;
-    if (offset > 1340) {
+    offset = offset + (stagesBlock.offsetWidth - 25);
+    if (offset > (stagesBlock.offsetWidth - 25) * 4) {
         offset = 0;
     }
     stagesMainSlider.style.left = -offset + "px";
 })
 
 stagesButtonLeft.addEventListener('click', () => {
-    offset = offset - 315;
+    offset = offset - (stagesBlock.offsetWidth + 25);
     if (offset < 0) {
-        offset = 1340;
+        offset = (stagesBlock.offsetWidth - 25) * 4;
     }
     stagesMainSlider.style.left = -offset + "px";
 })
@@ -72,3 +73,4 @@ showHideExamples();
 burgerMenuButton.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 })
+
