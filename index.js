@@ -28,17 +28,17 @@ showHideServices();
 
 let offset = 0;
 stagesButtonRight.addEventListener('click', () => {
-    offset = offset + 550;
-    if (offset > 2750) {
+    offset = offset + 300;
+    if (offset > 1800) {
         offset = 0;
     }
     stagesMainSlider.style.left = -offset + "px";
 })
 
 stagesButtonLeft.addEventListener('click', () => {
-    offset = offset - 550;
+    offset = offset - 300;
     if (offset < 0) {
-        offset = 2750;
+        offset = 1800;
     }
     stagesMainSlider.style.left = -offset + "px";
 })
@@ -71,5 +71,4 @@ showHideExamples();
 
 burgerMenuButton.addEventListener('click', () => {
     navLinks.classList.toggle('active');
-    console.log(1111);
 })
