@@ -28,17 +28,17 @@ showHideServices();
 
 let offset = 0;
 stagesButtonRight.addEventListener('click', () => {
-    offset = offset + 300;
-    if (offset > 1800) {
+    offset = offset + 335;
+    if (offset > 1340) {
         offset = 0;
     }
     stagesMainSlider.style.left = -offset + "px";
 })
 
 stagesButtonLeft.addEventListener('click', () => {
-    offset = offset - 300;
+    offset = offset - 335;
     if (offset < 0) {
-        offset = 1800;
+        offset = 1340;
     }
     stagesMainSlider.style.left = -offset + "px";
 })

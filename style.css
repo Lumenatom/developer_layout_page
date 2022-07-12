@@ -1446,7 +1446,7 @@ body .wraper .footer .container .information h3 {
     max-width: 460px;
   }
   body .wraper .order_header .container .order_header-item .order_header-button {
-    margin-bottom: 140px;
+    margin-bottom: 51px;
     display: flex;
     justify-content: center;
   }
@@ -1506,7 +1506,7 @@ body .wraper .footer .container .information h3 {
   }
   body .wraper .stages .container .stages_main .stages_item {
     max-width: 335px;
-    height: 500px;
+    height: 465px;
     padding: 10px;
     margin-bottom: 25px;
   }
@@ -1516,9 +1516,12 @@ body .wraper .footer .container .information h3 {
   body .wraper .stages .container .stages_main .stages_item .rewiev .description {
     width: 275px;
   }
+  body .wraper .stages .container .stages_main .stages_item .rewiev .title h2 {
+    margin-bottom: 15px;
+  }
   body .wraper .stages .container .stages_main .stages_item .stages_image img {
     width: 200px;
-    height: 200px;
+    height: 150px;
   }
   body .wraper .examples {
     max-width: 460px;

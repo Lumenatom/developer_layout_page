@@ -1891,7 +1891,7 @@ body {
                         }
 
                         .order_header-button {
-                            margin-bottom: 140px;
+                            margin-bottom: 51px;
                             display: flex;
                             justify-content: center;
 
@@ -1983,7 +1983,7 @@ body {
                     .stages_main {
                         .stages_item {
                             max-width: 335px;
-                            height: 500px;
+                            height: 465px;
                             padding: 10px;
                             margin-bottom: 25px;
 
@@ -1993,12 +1993,18 @@ body {
                                 .description {
                                     width: 275px;
                                 }
+
+                                .title {
+                                    h2 {
+                                        margin-bottom: 15px;
+                                    }
+                                }
                             }
 
                             .stages_image {
                                 img {
                                     width: 200px;
-                                    height: 200px;
+                                    height: 150px;
                                 }
                             }
                         }
