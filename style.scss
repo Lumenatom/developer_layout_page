@@ -1801,7 +1801,8 @@ body {
             }
 
             .order_header {
-                max-width: 375px;
+                max-width: 460px;
+                margin: 0 auto;
 
                 .background_images {
                     img {
@@ -1828,6 +1829,7 @@ body {
                         }
 
                         &:nth-child(5) {
+                            width: 300px;
                             right: 0%;
                             top: 3.46%;
                         }
@@ -1892,7 +1894,7 @@ body {
                             justify-content: center;
 
                             a {
-                                padding: 22.5px 125px;
+                                padding: 22.5px 122px;
                             }
                         }
                     }
@@ -1900,7 +1902,7 @@ body {
             }
 
             .services {
-                max-width: 640px;
+                max-width: 460px;
 
                 .background_images {
                     img {
@@ -1909,29 +1911,49 @@ body {
                 }
 
                 .container {
-                    max-width: 460px;
+                    width: 375px;
+                    padding: 0 20px;
 
                     .services_title {
-                        margin-top: 80px;
+                        margin-top: 16px;
+                        margin-bottom: 17px;
+
+                        h3 {
+                            font-size: 23px;
+                            line-height: 34.5px;
+                        }
                     }
 
                     .services_description {
+                        margin-bottom: 30px;
+
                         .services_item {
-                            max-width: 460px;
+                            max-width: 375px;
+
+                            .main_block-description {
+                                .title_description {
+                                    .title {
+                                        p {
+                                            font-size: 17px;
+                                            line-height: 29.75px;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
             }
 
             .stages {
-                max-width: 640px;
+                max-width: 460px;
 
                 .background_images {
                     img {
 
                         &:nth-child(1) {
                             left: 3.94%;
-                            top: 3.37%;
+                            top: 0.37%;
                         }
 
                         &:nth-child(2) {
@@ -1942,62 +1964,70 @@ body {
                 }
 
                 .container {
-                    width: 460px;
+                    width: 375px;
+                    padding: 0 20px;
 
                     .stages_title {
-                        margin-top: 80px;
+                        margin-top: 42px;
+                        margin-bottom: 42px;
+
+                        h3 {
+                            font-size: 23px;
+                            line-height: 34px;
+                        }
                     }
 
                     .stages_main {
                         .stages_item {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-between;
-                            margin-bottom: 54px;
-                        }
-                    }
+                            max-width: 335px;
+                            padding: 20px;
 
-                    .stages_buttons {
-                        display: flex;
-                        justify-content: center;
-                        gap: 107px;
-                        margin-bottom: 50px;
+                            .rewiev {
+                                margin-right: 0;
 
-                        button {
-                            width: 60px;
-                            height: 60px;
+                                .description {
+                                    width: 275px;
+                                }
+                            }
                         }
                     }
                 }
             }
 
             .examples {
-                max-width: 640px;
+                max-width: 460px;
 
                 .container {
-                    width: 460px;
+                    width: 375px;
 
                     .examples_title {
-                        margin-top: 80px;
+                        margin-top: 23px;
+                        margin-bottom: 15px;
+
+
+                        h3 {
+                            font-size: 23px;
+                            line-height: 34.5px;
+                        }
                     }
 
                     .examples_item {
                         display: flex;
                         justify-content: center;
-                        margin-bottom: 80px;
+                        margin-bottom: 30px;
 
                         .examples_image-block {
-                            width: 460px;
-                            height: 407px;
+                            width: 375px;
+                            height: 375px;
 
                             .examples_image {
-                                width: 460px;
-                                height: 407px;
+                                width: 375px;
+                                height: 375px;
                             }
 
                             .examples_description {
-                                width: 460px;
-                                height: 407px;
+                                width: 375px;
+                                height: 375px;
                             }
                         }
                     }
@@ -2005,7 +2035,7 @@ body {
             }
 
             .information {
-                max-width: 640px;
+                max-width: 460px;
 
                 .background_images {
                     img {
@@ -2016,38 +2046,42 @@ body {
                         }
 
                         &:nth-child(2) {
-                            left: 30.42%;
+                            left: 20.42%;
                             top: 20.07%;
-                            width: 301.58px;
-                            height: 231.5px;
                         }
                     }
                 }
 
                 .container {
-                    width: 460px;
+                    width: 375px;
+                    padding: 0 20px;
 
                     .title {
-                        margin-top: 80px;
-                        text-align: center;
-                        margin-bottom: 238px;
+                        margin-top: 43px;
+                        margin-bottom: 268px;
+
+                        h3 {
+                            font-size: 23px;
+                            line-height: 34px;
+                        }
                     }
 
                     .description {
-                        width: 460px;
-                        padding-top: 20px;
+                        width: 335px;
                     }
 
                     .button {
-                        display: flex;
-                        justify-content: center;
-                        margin-bottom: 60px;
+                        margin-bottom: 50px;
+
+                        button {
+                            padding: 22.5px 88px;
+                        }
                     }
                 }
             }
 
             .feedback {
-                max-width: 960px;
+                max-width: 460px;
 
                 .background_images {
                     img {
@@ -2061,27 +2095,53 @@ body {
                         }
 
                         &:nth-child(3) {
-                            display: block;
-                            left: 30.42%;
-                            top: 67.07%;
+                            left: 20.42%;
+                            top: 61.07%;
                         }
                     }
                 }
 
                 .container {
-                    width: 460px;
+                    width: 375px;
+
+                    .title {
+                        text-align: center;
+                        margin-top: 42px;
+                        margin-bottom: 17px;
+                    }
+
+                    .description {
+                        text-align: center;
+                        max-width: 375px;
+
+                        p {
+                            font-size: 17px;
+                            line-height: 29.75px;
+                        }
+                    }
 
                     .feedback_form {
+                        width: 375px;
+                        align-items: center;
                         margin-bottom: 400px;
+
+                        .input_field {
+                            width: 355px;
+                        }
+
+                        .submit {
+                            margin-top: 0px;
+                            width: 355px;
+                        }
                     }
                 }
             }
 
             .footer {
-                max-width: 640px;
+                max-width: 460px;
 
                 .container {
-                    width: 460px;
+                    width: 375px;
 
                     .contacts {
                         margin-top: 50px;
