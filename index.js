@@ -28,7 +28,7 @@ showHideServices();
 
 let offset = 0;
 stagesButtonRight.addEventListener('click', () => {
-    offset = offset + 335;
+    offset = offset + 315;
     if (offset > 1340) {
         offset = 0;
     }
@@ -36,7 +36,7 @@ stagesButtonRight.addEventListener('click', () => {
 })
 
 stagesButtonLeft.addEventListener('click', () => {
-    offset = offset - 335;
+    offset = offset - 315;
     if (offset < 0) {
         offset = 1340;
     }
