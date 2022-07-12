@@ -5,6 +5,9 @@ const stagesButtonLeft = document.querySelector('.button_left');
 const stagesButtonRight = document.querySelector('.button_right');
 const examplesDescription = document.querySelectorAll('.examples_description');
 const examplesImageBlock = document.querySelectorAll('.examples_image-block');
+const burgerMenuButton = document.querySelector('.burger_menu');
+const navLinks = document.querySelector('.nav_links');
+
 
 const showHideServices = () => {
     for (let i = 0; i < servicesButtons.length; i++) {
@@ -65,3 +68,8 @@ const showHideExamples = () => {
 
 }
 showHideExamples();
+
+burgerMenuButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    console.log(1111);
+})
